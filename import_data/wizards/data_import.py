@@ -26,12 +26,6 @@ except ImportError:
     _logger.debug('Cannot `import base64`.')
 
 
-class Template(models.Model):
-    _inherit = "product.template"
-
-    to_be = fields.Boolean('To Be')
-
-
 class ImportWizard(models.TransientModel):
     _name = "import.wizard"
     _description = 'Import Wizard'
