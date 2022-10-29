@@ -14,9 +14,9 @@
     ],
     "data": [
         "security/ir.model.access.csv",
-        "views/survey_survey_views.xml",
 
         "wizards/data_import_view.xml",
+        "views/survey_survey_views.xml",
     ],
 
     "application": True,
