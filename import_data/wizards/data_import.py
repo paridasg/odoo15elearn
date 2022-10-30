@@ -72,7 +72,7 @@ class ImportWizard(models.TransientModel):
                 correct_ans = row[8].split(',')
                 for i in range(2, 8):
                     answer_id = self.env['survey.question.answer'].search([('question_id', '=', question_id.id), ('value', '=', row[i])])
-                    if not answer_id:
+                    if not answer_id and len(row[i]) > 0:
                         ans_values = {
                             'question_id': question_id.id,
                             'value': row[i],
