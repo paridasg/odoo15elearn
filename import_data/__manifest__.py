@@ -8,7 +8,7 @@
     'author': "Wabsol",
     'website': "https://www.wabsol.com/",
     "license": "OPL-1",
-    'version': '15.0',
+    'version': '15.1',
     "depends": [
         "base", "website_slides_survey",
     ],

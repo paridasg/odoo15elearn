@@ -12,7 +12,8 @@
                         </group>
                     </group>
 				    <footer>
-                        <button name="import_data" string="Import Data" type="object" class="btn-primary"/>
+                        <button name="import_data" string="Import as xlxs" type="object" class="btn-primary"/>
+                        <button name="import_data_as_csv" string="Import as csv" type="object" class="btn-primary"/>
                         <button string="Cancel" class="btn-default" special="cancel" />
 				    </footer>
 				</form>
